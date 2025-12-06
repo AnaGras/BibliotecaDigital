@@ -16,3 +16,20 @@ class Libro{
 
 //Array donde guardamos la biblioteca
 let biblioteca =[];
+
+//Funcio para añadir un libro
+function anadirLibro() {
+    console.log("------AÑADIR LIBRO------");
+    let titulo = rl.question("Titulo: ");
+    let autor = rl.question("Autor: ");
+    let paginas = rl.question("Paginas: ");
+    let genero = rl.question("Genero: ");
+
+    let libro = new Libro(titulo, autor, paginas, genero);
+    biblioteca.push(libro);
+
+
+    console.log("Libro añadido correctamente.");
+}
+
+
