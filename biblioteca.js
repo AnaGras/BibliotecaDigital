@@ -32,4 +32,19 @@ function anadirLibro() {
     console.log("Libro añadido correctamente.");
 }
 
+//Función para mostrar todos los libros
+function listarLibros() {
+    console.log("*****Lista de libros*****");
+
+    if (biblioteca.length === 0) {
+        console.log("No hay libros en la biblioteca");
+        return;
+    }
+    
+    for (let i = 0; i < biblioteca.length; i++) {
+        console.log(i + 1 + ". " + biblioteca[i].mostrar());
+    }
+    console.log();
+}
+
 
