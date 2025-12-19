@@ -1,23 +1,18 @@
 {
-  "name": "bibliotecadigital",
+  "name": "pi_004",
   "version": "1.0.0",
   "description": "",
-  "main": "biblioteca.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnaGras/BibliotecaDigital.git"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnaGras/BibliotecaDigital/issues"
-  },
-  "homepage": "https://github.com/AnaGras/BibliotecaDigital#readme",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
